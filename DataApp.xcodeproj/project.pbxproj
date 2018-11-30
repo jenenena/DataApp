@@ -14,9 +14,9 @@
 		BE3C93B121AC48F500CC27D3 /* DataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C93B021AC48F500CC27D3 /* DataAppTests.swift */; };
 		BE3C93BC21AC48F500CC27D3 /* DataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C93BB21AC48F500CC27D3 /* DataAppUITests.swift */; };
 		BE6D948921B18464000AC837 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D948821B18464000AC837 /* DataViewController.swift */; };
-		BE6D948B21B184B7000AC837 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D948A21B184B7000AC837 /* BucketItemCell.swift */; };
 		BE6D948D21B18532000AC837 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D948C21B18532000AC837 /* BucketItem.swift */; };
 		BE6D949021B185F6000AC837 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE6D948F21B185F6000AC837 /* bucket18.csv */; };
+		BE6D949221B19456000AC837 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D949121B19456000AC837 /* BucketItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		BE3C93BB21AC48F500CC27D3 /* DataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAppUITests.swift; sourceTree = "<group>"; };
 		BE3C93BD21AC48F500CC27D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6D948821B18464000AC837 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		BE6D948A21B184B7000AC837 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		BE6D948C21B18532000AC837 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		BE6D948F21B185F6000AC837 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
+		BE6D949121B19456000AC837 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6D948821B18464000AC837 /* DataViewController.swift */,
-				BE6D948A21B184B7000AC837 /* BucketItemCell.swift */,
+				BE6D949121B19456000AC837 /* BucketItemCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,8 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6D949221B19456000AC837 /* BucketItemCell.swift in Sources */,
 				BE6D948D21B18532000AC837 /* BucketItem.swift in Sources */,
-				BE6D948B21B184B7000AC837 /* BucketItemCell.swift in Sources */,
 				BE6D948921B18464000AC837 /* DataViewController.swift in Sources */,
 				BE3C939C21AC48EC00CC27D3 /* AppDelegate.swift in Sources */,
 			);

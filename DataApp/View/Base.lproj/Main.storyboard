@@ -23,6 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="670" y="224"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="NL7-yP-5u7">
@@ -33,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="98" id="HYE-i3-wjq" customClass="BucketItemCell" customModule="DataApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="98" id="HYE-i3-wjq" customClass="BucketItemCell" customModule="DataApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="98"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HYE-i3-wjq" id="1Xf-gY-Fnn">
@@ -56,7 +57,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-Qx-Li7" userLabel="Bucket Item Signature">
-                                            <rect key="frame" x="92" y="52" width="267" height="21"/>
+                                            <rect key="frame" x="92" y="66" width="267" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="267" id="MFy-f6-ne0"/>
                                             </constraints>
@@ -77,6 +78,14 @@
                                         <constraint firstItem="tLr-V6-PbQ" firstAttribute="leading" secondItem="Jw6-Ft-NAq" secondAttribute="trailing" constant="20" id="aKW-cp-1xH"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="BucketItemSignature" destination="Idp-Qx-Li7" id="5aD-Wa-6Gs"/>
+                                    <outlet property="BucketItemSymbol" destination="Jw6-Ft-NAq" id="bPn-Wg-6IE"/>
+                                    <outlet property="BucketItemText" destination="tLr-V6-PbQ" id="VFl-BT-Qwc"/>
+                                    <outlet property="bucketItemSignature" destination="Idp-Qx-Li7" id="ptO-1t-xPL"/>
+                                    <outlet property="bucketItemSymbol" destination="Jw6-Ft-NAq" id="4gO-CS-7fp"/>
+                                    <outlet property="bucketItemText" destination="tLr-V6-PbQ" id="JvA-H6-zPb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
