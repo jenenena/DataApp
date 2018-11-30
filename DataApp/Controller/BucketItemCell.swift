@@ -10,9 +10,9 @@ import UIKit
 
 class BucketItemCell: UITableViewCell {
 
-    @IBOutlet weak var BucketItemSymbol: UILabel!
-    @IBOutlet weak var BucketItemText: UILabel!
-    @IBOutlet weak var BucketItemSignature: UILabel!
+    @IBOutlet weak var bucketItemSymbol: UILabel!
+    @IBOutlet weak var bucketItemText: UILabel!
+    @IBOutlet weak var bucketItemSignature: UILabel!
     
     var currentBucketItem : BucketItem!
     {
@@ -46,6 +46,21 @@ class BucketItemCell: UITableViewCell {
         let ascii = emojiStart + Int(arc4random_uniform(UInt32(emojiRange)))
         let emoji = UnicodeScalar(ascii)?.description
         return emoji!
+    }
+    
+    private func updateCellView() -> Void
+    {
+        if (currentBucketItem != nil)
+        {
+            bucketItemSignature.text = currentBucketItem.itemAuthor
+            bucketItemText.text = currentBucketItem.itemContents
+        }
+        else
+        {
+            bucketItemSignature.text = "Author goes here"
+            bucketItemText.text = "Bucket item contents here"
+        }
+        bucketItemSymbol.text = randomEmoji()
     }
 
 }
