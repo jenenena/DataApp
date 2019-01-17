@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1505DF21F0E2BF002954C7 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = BE1505DE21F0E2BF002954C7 /* Controller */; };
+		BE1505E121F0E312002954C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1505E021F0E312002954C7 /* Main.storyboard */; };
 		BE3C939C21AC48EC00CC27D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C939B21AC48EC00CC27D3 /* AppDelegate.swift */; };
-		BE3C93A121AC48EC00CC27D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3C939F21AC48EC00CC27D3 /* Main.storyboard */; };
 		BE3C93A321AC48F500CC27D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3C93A221AC48F500CC27D3 /* Assets.xcassets */; };
-		BE3C93A621AC48F500CC27D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3C93A421AC48F500CC27D3 /* LaunchScreen.storyboard */; };
 		BE3C93B121AC48F500CC27D3 /* DataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C93B021AC48F500CC27D3 /* DataAppTests.swift */; };
 		BE3C93BC21AC48F500CC27D3 /* DataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C93BB21AC48F500CC27D3 /* DataAppUITests.swift */; };
-		BE6D948921B18464000AC837 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D948821B18464000AC837 /* DataViewController.swift */; };
 		BE6D948D21B18532000AC837 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D948C21B18532000AC837 /* BucketItem.swift */; };
 		BE6D949021B185F6000AC837 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE6D948F21B185F6000AC837 /* bucket18.csv */; };
-		BE6D949221B19456000AC837 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D949121B19456000AC837 /* BucketItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE1505DE21F0E2BF002954C7 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		BE1505E021F0E312002954C7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Data View/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		BE3C939821AC48EC00CC27D3 /* DataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3C939B21AC48EC00CC27D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE3C93A021AC48EC00CC27D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE3C93A221AC48F500CC27D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE3C93A521AC48F500CC27D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE3C93A721AC48F500CC27D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3C93AC21AC48F500CC27D3 /* DataAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3C93B021AC48F500CC27D3 /* DataAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAppTests.swift; sourceTree = "<group>"; };
@@ -49,10 +47,8 @@
 		BE3C93B721AC48F500CC27D3 /* DataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3C93BB21AC48F500CC27D3 /* DataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAppUITests.swift; sourceTree = "<group>"; };
 		BE3C93BD21AC48F500CC27D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE6D948821B18464000AC837 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		BE6D948C21B18532000AC837 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		BE6D948F21B185F6000AC837 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
-		BE6D949121B19456000AC837 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +99,9 @@
 		BE3C939A21AC48EC00CC27D3 /* DataApp */ = {
 			isa = PBXGroup;
 			children = (
+				BE1505DE21F0E2BF002954C7 /* Controller */,
 				BE3C93CA21AC495800CC27D3 /* Resources */,
 				BE6D948E21B18544000AC837 /* Model */,
-				BE3C93CB21AC496500CC27D3 /* Controller */,
 				BE3C93C921AC494400CC27D3 /* View */,
 			);
 			path = DataApp;
@@ -132,8 +128,7 @@
 		BE3C93C921AC494400CC27D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BE3C939F21AC48EC00CC27D3 /* Main.storyboard */,
-				BE3C93A421AC48F500CC27D3 /* LaunchScreen.storyboard */,
+				BE1505E021F0E312002954C7 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,15 +142,6 @@
 				BE3C93A721AC48F500CC27D3 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		BE3C93CB21AC496500CC27D3 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BE6D948821B18464000AC837 /* DataViewController.swift */,
-				BE6D949121B19456000AC837 /* BucketItemCell.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		BE6D948E21B18544000AC837 /* Model */ = {
@@ -270,10 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3C93A621AC48F500CC27D3 /* LaunchScreen.storyboard in Resources */,
 				BE6D949021B185F6000AC837 /* bucket18.csv in Resources */,
 				BE3C93A321AC48F500CC27D3 /* Assets.xcassets in Resources */,
-				BE3C93A121AC48EC00CC27D3 /* Main.storyboard in Resources */,
+				BE1505E121F0E312002954C7 /* Main.storyboard in Resources */,
+				BE1505DF21F0E2BF002954C7 /* Controller in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,9 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6D949221B19456000AC837 /* BucketItemCell.swift in Sources */,
 				BE6D948D21B18532000AC837 /* BucketItem.swift in Sources */,
-				BE6D948921B18464000AC837 /* DataViewController.swift in Sources */,
 				BE3C939C21AC48EC00CC27D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,25 +319,6 @@
 			targetProxy = BE3C93B821AC48F500CC27D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BE3C939F21AC48EC00CC27D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE3C93A021AC48EC00CC27D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BE3C93A421AC48F500CC27D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE3C93A521AC48F500CC27D3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE3C93BE21AC48F500CC27D3 /* Debug */ = {
